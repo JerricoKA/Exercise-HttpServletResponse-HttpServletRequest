@@ -1,0 +1,72 @@
+body{
+    background-image: url("http://pic.netbian.com/uploads/allimg/170610/174855-14970881351957.jpg");
+    background-size:1540px 850px;
+    background-repeat:no-repeat;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Nunito", "Segoe UI", arial, serif;
+    color: #6c757d;
+}
+#left{
+    opacity:0.7;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    width: 476px;
+    height: auto;
+    background-color: white;
+
+}
+#left_dex{
+    margin-left: 30px;
+}
+h4{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: 500 !important;
+    font-size: 1.5rem;
+}
+label{
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.form_group{
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+.searchname{
+    font-weight: 600;
+    color: #34395e;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+.search{
+    display: block;
+    width: 400px;
+    background-color: #e4e6fc;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 14px;
+    padding: 10px 15px;
+    height: 42px;
+    border: 1px solid #e4e6fc;
+
+}
+#button{
+    margin-left: 70%;
+    font-size: 12px;
+    border-radius: .25rem;
+    width: 17%;
+    height: 7%;
+    color: white;
+    box-shadow: 0 2px 6px #acb5f6;
+    background-color: #6777ef;
+    border-color: #6777ef;
+}
+#login_form{
+    text-align: center;
+}

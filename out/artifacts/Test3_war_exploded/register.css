@@ -1,0 +1,102 @@
+
+    body{
+    height:850px;
+    background-image: url("http://pic.netbian.com/uploads/allimg/200808/001100-1596816660d2fe.jpg");
+    background-size:1540px 850px;
+    background-repeat:no-repeat;
+    border:1px #ccc solid;
+    background-color: #f4f6f9;
+}
+#all{
+    opacity:0.7;
+    position: absolute;
+    background-color: white;
+    left: 25%;
+    top: 25%;
+    width: 730px;
+    margin: 0 auto;
+}
+#top{
+    text-align: center;
+    border-bottom-color: #f9f9f9;
+    line-height: 30px;
+    -ms-grid-row-align: center;
+    align-self: center;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    padding: .75rem 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+h4{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6777ef;
+    padding-right: 10px;
+    padding-left: 300px;
+    margin-bottom: 0;
+}
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+}
+.inrow{
+    width: 300px;
+    height: 70px;
+    margin-bottom: 25px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+table{
+    border-collapse:collapse;
+}
+label{
+    font-weight: 600;
+    color: #34395e;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+#card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.search{
+    height: 42px;
+    width: 325px;
+    background-color: #fdfdff;
+    display: block;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#btn{
+    height: 40px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+}
+#login{
+    border-radius: .25rem;
+    width: 700px;
+    font-size: 12px;
+    color: white;
+    box-shadow: 0 2px 6px #acb5f6;
+    background-color: #6777ef;
+    border-color: #6777ef;
+    height: 100%;
+}
